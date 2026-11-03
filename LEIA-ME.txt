@@ -1,0 +1,25 @@
+ECODESAFIO - VERSÃO BETA (protótipo funcional para testes de usabilidade)
+
+COMO ABRIR
+Opção 1 (mais simples): dê dois cliques em index.html. Abre no navegador.
+Opção 2 (servidor local, recomendado para o relatório): abra um terminal nesta pasta e rode
+    python -m http.server 8000
+  depois acesse http://localhost:8000 no navegador.
+  Para testar no celular (mesmo Wi-Fi): descubra o IP do computador (ipconfig) e acesse http://SEU-IP:8000 no celular.
+  (No Windows, iniciar.bat faz o passo do servidor por você.)
+
+ONDE FICAM OS DADOS
+No armazenamento do navegador (localStorage). Cada navegador/aparelho tem os seus dados; nada vai para a internet.
+Os participantes "exemplo" do ranking são fictícios e aparecem identificados como tal.
+Para realizar os testes com 5 pessoas no mesmo computador, use uma conta (apelido + e-mail) para cada uma.
+
+COMO USAR NO TESTE
+1. Voluntário cria conta, aceita um desafio, conclui, responde o quiz, vê ranking e perfil.
+2. Você, como administrador ("Entrar como administrador" na tela inicial), cria/edita um desafio e abre as Métricas.
+3. Em Métricas, baixe o CSV/JSON (sem e-mails) para montar a tabela de resultados.
+4. "Apagar todos os dados" zera tudo (use antes de uma nova rodada).
+
+OBSERVAÇÕES
+- O acesso de administrador não tem senha: é apenas uma versão beta de teste.
+- Dados de um navegador não aparecem em outro. Faça todos os testes no mesmo navegador (ou exporte ao fim de cada um).
+- tests/logic.test.js: testes automáticos das regras (node tests/logic.test.js).
