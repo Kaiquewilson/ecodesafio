@@ -27,4 +27,4 @@ Abra a página publicada no GitHub Pages ou, no computador, abra o arquivo `inde
 
 ## Tecnologias
 
-HTML, CSS e JavaScript, sem bibliotecas externas. As regras de negócio ficam em `js/logic.js` e têm testes automatizados em `tests/`.
+HTML, CSS e JavaScript, sem bibliotecas externas. As regras de negócio ficam em `logic.js` e têm testes automatizados no arquivo `logic.test.js`.
